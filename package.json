@@ -1,7 +1,7 @@
 {
   "name": "portfolio-website-nextjs",
   "version": "1.0.0",
-  "description": "This is my personal portfolio website.",
+  "description": "Este es mi Portfolio Web personal.",
   "main": "index.js",
   "scripts": {
     "dev": "next dev",
@@ -10,7 +10,7 @@
     "lint": "next lint"
   },
   "keywords": [],
-  "author": "Masood Akhtar Vaheed",
+  "author": "Víctor Amigo García",
   "license": "ISC",
   "dependencies": {
     "@chakra-ui/icons": "^2.1.0",

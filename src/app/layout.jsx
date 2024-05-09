@@ -2,9 +2,9 @@ import Favicon from "/public/images/favicon.png";
 import ClientRootLayout from "../components/ClientRootLayout";
 
 export const metadata = {
-  title: "Vaheed Shaik | Software Engineer",
+  title: "Víctor Amigo García | Estudiante de Ingenería Informática",
   description:
-  "Welcome to Vaheed's Software Engineering Portfolio. Explore a diverse range of projects and see how I can bring your ideas to life. Let's connect and discuss your next venture!",
+  "Bienvenido al Portfolio de Víctor. Aquí podrás conocerme un poco más y, si te interesa, hablar conmigo!",
   keywords: [
     "portfolio",
     "app",
