@@ -48,7 +48,7 @@ const Page = () => {
                   <span className="tech">Pentesting y Análisis Forense</span>, ya que considero
                   que cada día que pasa esto va a ser más importante y, es una forma crucial de
                   proteger mis datos y, los de los demás usuarios, o por lo menos poder saber
-                  que les ha pasado. 🫠
+                  que ha pasado. 🫠
                 </Text>
                 <br />
 

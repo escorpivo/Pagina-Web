@@ -69,7 +69,7 @@ export const interestsData = [
     icon: GiArchiveResearch,
   },
   {
-    interest: "Gestión de Incidentes de Seguridad",
+    interest: "Gestión de Incidentes",
     icon: BsFileBarGraph,
   },
   {

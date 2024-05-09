@@ -7,7 +7,7 @@ import "../styles/main.scss";
 
 const ClientRootLayout = ({ children }) => {
   return (
-    <html lang="en" className="sr">
+    <html lang="es" className="sr">
       <body
         style={{
           backgroundColor: "#02001E",
