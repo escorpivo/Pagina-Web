@@ -43,8 +43,8 @@ const Page = () => {
                 </Heading>
                 <br />
                 <Text>
-                  I&apos;m <span className="name">Víctor</span>, Estudiante de Ingeniería Informática
-                  Con mucho interés y pasión por la ciberseguirdad. Quiero especializarme en:{" "}
+                  Soy<span className="name">Víctor</span>, Estudiante de Ingeniería Informática,
+                  con mucho interés y pasión por la ciberseguirdad.<br /> Quiero especializarme en:{" "}
                   <span className="tech">Pentesting y Análisis Forense</span>, ya que considero
                   que cada día que pasa esto va a ser más importante y, es una forma crucial de
                   proteger mis datos y, los de los demás usuarios, o por lo menos poder saber
