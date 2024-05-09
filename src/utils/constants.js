@@ -78,7 +78,7 @@ export const interestsData = [
   },
   {
     interest: "Análisis de Malware",
-    icon: FiClipboard,
+    icon: GiArtificialIntelligence,
   },
   {
     interest: "Seguridad Física y de Acceso",
