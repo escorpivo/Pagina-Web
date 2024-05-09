@@ -24,8 +24,8 @@ import { RevealWrapper } from 'next-reveal'
 
 const ContactForm = () => {
   const toast = useToast();
-  const options = ["Web Development", "Hiring", "Freelance", "Other"];
-  const [interestedIn, setInterestedIn] = useState("Web Development");
+  const options = ["Hablar", "Contratarme", "Freelance", "Other"];
+  const [interestedIn, setInterestedIn] = useState("Hablar");
   const { getRootProps, getRadioProps } = useRadioGroup({
     name: "interested",
     defaultValue: interestedIn,
@@ -54,7 +54,7 @@ const ContactForm = () => {
       });
 
       if (!response.ok) {
-        throw new Error("Unable to send message ");
+        throw new Error("No se ha podido mandar el mensaje ");
       }
 
       reset({
@@ -67,14 +67,14 @@ const ContactForm = () => {
       setIsLoading(false);
 
       toast({
-        title: "Message sent successfully",
+        title: "Mensaje enviado satisfactoriamente",
         status: "success",
         position: "top",
         duration: 9000,
         isClosable: true,
       });
     } catch (error) {
-      console.error("Error sending message:", error);
+      console.error("Error enviando el mensaje:", error);
       toast({
         title: error.message,
         status: "error",
@@ -91,7 +91,7 @@ const ContactForm = () => {
       <Card className="contact-form-card" borderRadius="2rem" backgroundColor="white" padding="10px 15px">
         <CardBody>
           <Heading size="md" color="black" my={3}>
-            I&apos;m interested in...
+            Estoy interesado en...
           </Heading>
           <Flex {...group} wrap="wrap" px={1}>
             {options.map((value) => {
@@ -114,11 +114,11 @@ const ContactForm = () => {
                 {...register("name", { required: true })}
               />
               {errors.name && (
-                <FormErrorMessage>Enter your name</FormErrorMessage>
+                <FormErrorMessage>Tu nombre</FormErrorMessage>
               )}
             </FormControl>
             <FormControl isRequired isInvalid={errors.email}>
-              <FormLabel htmlFor="email">Enter Email</FormLabel>
+              <FormLabel htmlFor="email">Tu Email</FormLabel>
               <Input
                 id="email"
                 className="contact-input"
@@ -127,11 +127,11 @@ const ContactForm = () => {
                 {...register("email", { required: true })}
               />
               {errors.email && (
-                <FormErrorMessage>Enter your email</FormErrorMessage>
+                <FormErrorMessage>Tu email</FormErrorMessage>
               )}
             </FormControl>
             <FormControl my={4}>
-              <FormLabel htmlFor="number">Enter Phone No.</FormLabel>
+              <FormLabel htmlFor="number">Tu número de teléfono.</FormLabel>
               <NumberInput id="number" {...register("number")}>
                 <NumberInputField
                   className="contact-input"
@@ -140,7 +140,7 @@ const ContactForm = () => {
               </NumberInput>
             </FormControl>
             <FormControl isRequired isInvalid={errors.message}>
-              <FormLabel htmlFor="message">Enter Message</FormLabel>
+              <FormLabel htmlFor="message">Pon tu mensaje</FormLabel>
               <Textarea
                 id="message"
                 className="contact-input"
@@ -148,7 +148,7 @@ const ContactForm = () => {
                 {...register("message", { required: true })}
               />
               {errors.message && (
-                <FormErrorMessage>Enter your message</FormErrorMessage>
+                <FormErrorMessage>Pon tu mensajee</FormErrorMessage>
               )}
             </FormControl>
             <FormControl>
