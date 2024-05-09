@@ -19,7 +19,7 @@ const Page = () => {
         <Box width="80vw" height="100%">
           <RevealWrapper className="load-hidden" id="about" delay={300}>
             <Heading className="sub-heading" size="md" my={3}>
-              ABOUT
+            SOBRE DE MI 🤗
             </Heading>
             <SimpleGrid
               columns={[1, null, 2]}
@@ -39,11 +39,11 @@ const Page = () => {
 
               <Box textAlign="justify">
                 <Heading size="xl" mb={3}>
-                  👋 Hey there
+                  👋 Holaaa!
                 </Heading>
                 <br />
                 <Text>
-                  Soy<span className="name">Víctor</span>, estudiante de Ingeniería Informática,
+                  Soy <span className="name">Víctor</span>, estudiante de Ingeniería Informática,
                   con mucho interés y pasión por la ciberseguirdad.<br /> Quiero especializarme en:{" "}
                   <span className="tech">Pentesting y Análisis Forense</span>, ya que considero
                   que cada día que pasa esto va a ser más importante y, es una forma crucial de
@@ -64,7 +64,7 @@ const Page = () => {
           </RevealWrapper>
           <RevealWrapper className="load-hidden" id="interests" delay={600}>
             <Heading className="sub-heading" size="md" my={3}>
-              INTERESTS
+              INTERESES
             </Heading>
             <SimpleGrid
               spacing={4}

@@ -100,20 +100,12 @@ export const skillsData = [
     icon: TbBrandJavascript,
   },
   {
-    name: "Jquery",
-    icon: BiLogoJquery,
-  },
-  {
     name: "Typescript",
     icon: TbBrandTypescript,
   },
   {
     name: "SASS",
     icon: FaSass,
-  },
-  {
-    name: "Bootstrap",
-    icon: TbBrandBootstrap,
   },
   {
     name: "C/C++",
@@ -132,16 +124,8 @@ export const skillsData = [
     icon: SiNextdotjs,
   },
   {
-    name: "Redux",
-    icon: TbBrandRedux,
-  },
-  {
     name: "NodeJs",
     icon: FaNodeJs,
-  },
-  {
-    name: "PugJs",
-    icon: SiPug,
   },
   {
     name: "Express",
@@ -150,10 +134,6 @@ export const skillsData = [
   {
     name: "Docker",
     icon: FaDocker,
-  },
-  {
-    name: "Postgres",
-    icon: BiLogoPostgresql,
   },
   {
     name: "Postman",
@@ -183,45 +163,20 @@ export const skillsData = [
 
 export const workData = [
   {
-    company: "1Digitalstack.ai",
-    designation: "Software Engineer 1",
-    duration: "March 2022 - Present",
+    company: "Universidad de León",
+    designation: "Estudiante",
+    duration: "Septiembre 2021 - Actualidad",
     companyImg: "1ds.jpg",
     description: (
       <>
         <ul>
           <li>
-            I work on Reviniti, an analytics product designed for e-commerce
-            players in the bid management domain. Solely migrated the old
-            codebase from a templating engine (PugJS) to React with TypeScript.
+          De momento, solo he estudiado en la universidad, aunque he investigado acerca
+          de muchas cosas y, hasta he desarrollado algún que otro proyecto.
           </li>
           <li>
-            Engaged in developing new features, refactoring code, enhancing
-            product performance, bug fixes and contributing towards achieving
-            high scalability for the product.
-          </li>
-        </ul>
-      </>
-    ),
-  },
-  {
-    company: "Fact.MR",
-    designation: "Associate Consultant Level 01",
-    duration: "Dec 2020 - July 2021",
-    companyImg: "fmr.svg",
-    description: (
-      <>
-        <ul>
-          <li>
-            Engaged in creating comprehensive client-specific and syndicated
-            research reports, along with SEO-focused articles and collateral
-            materials within the domains of chemicals, materials, consumer
-            goods, and industrial goods.
-          </li>
-          <li>
-            Expertly estimated market valuations and conducted primary research
-            in collaboration with industry experts to validate data, extract
-            valuable market insights.
+            ¡Aún así, espero poder desarrollar mucho más mi potencial y poder trabajar
+            codo con codo con los mejores!.
           </li>
         </ul>
       </>
@@ -230,7 +185,7 @@ export const workData = [
 ];
 
 export const projectsData = [
-  {
+  /*{
     type: "WEB-APP",
     title: "Movie Magnet",
     image: "movie-magnet",
@@ -299,40 +254,28 @@ export const projectsData = [
     image: "text-utility-app",
     link: "https://vaheedsk36.github.io/text-utility-app/",
     source: "https://github.com/vaheedsk36/text-utility-app",
-  },
+  },*/
 ];
 
 
 export const socialMediaLinks = [
   {
-    href: "https://github.com/vaheedsk36",
+    href: "https://github.com/escorpivo",
     icon: FaGithub,
     backgroundColor: "gray.700",
     hoverColor: "gray.600",
   },
   {
-    href: "https://www.instagram.com/codersk36/",
+    href: "https://www.instagram.com/victorrr_18/",
     icon: FaInstagram,
     backgroundColor: "social.instagram",
     hoverColor: "social.instagramHover",
   },
   {
-    href: "https://www.linkedin.com/in/sk36/",
+    href: "https://www.linkedin.com/in/victoramigo",
     icon: FaLinkedin,
     backgroundColor: "social.linkedin",
     hoverColor: "social.linkedinHover",
-  },
-  {
-    href: "https://twitter.com/codersk36",
-    icon: FaTwitter,
-    backgroundColor: "social.twitter",
-    hoverColor: "social.twitterHover",
-  },
-  {
-    href: "https://codersk36.hashnode.dev/",
-    icon: FaHashnode,
-    backgroundColor: "social.hashnode",
-    hoverColor: "social.hashnodeHover",
   },
 ];
 
