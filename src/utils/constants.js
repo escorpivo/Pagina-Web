@@ -57,7 +57,7 @@ export const interestsData = [
     icon: BsCodeSlash,
   },
   {
-    interest: "Tech Blog",
+    interest: "Pentesting",
     icon: FaHashnode,
   },
   {

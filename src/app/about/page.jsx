@@ -43,25 +43,22 @@ const Page = () => {
                 </Heading>
                 <br />
                 <Text>
-                  I&apos;m <span className="name">Vaheed</span>, a passionate
-                  software developer. I specialize in{" "}
-                  <span className="tech">Web Development</span>, crafting
-                  seamless user experiences and robust backend solutions. With a
-                  knack for problem-solving, I thrive on creating elegant code
-                  that makes an impact. I&apos;m always exploring new tools and
-                  techniques to stay at the forefront of the ever-evolving tech
-                  landscape.
+                  I&apos;m <span className="name">Víctor</span>, Estudiante de Ingeniería Informática
+                  Con mucho interés y pasión por la ciberseguirdad. Quiero especializarme en:{" "}
+                  <span className="tech">Pentesting y Análisis Forense</span>, ya que considero
+                  que cada día que pasa esto va a ser más importante y, es una forma crucial de
+                  proteger mis datos y, los de los demás usuarios, o por lo menos poder saber
+                  que les ha pasado. 🫠
                 </Text>
                 <br />
+
                 <Text>
-                  📫 Open to collaborations and exciting projects, I&apos;m
-                  eager to connect with fellow developers and tech enthusiasts.
-                  Let&apos;s build something amazing together!
+                  Actualmente estoy estudiando Ingeniería Informática en la universidad de León
+                  🤖📲Me interesa mucho la ciberseguridad y, en general, todos lo ámbitos de la misma.🔏
                 </Text>
-                <Text>
-                  Happy coding! 🖥️
-                  <br />
-                </Text>
+
+                <br />
+
               </Box>
             </SimpleGrid>
           </RevealWrapper>
