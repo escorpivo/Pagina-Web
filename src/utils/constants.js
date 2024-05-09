@@ -53,7 +53,7 @@ export const links = [
 
 export const interestsData = [
   {
-    interest: "Software Engineering",
+    interest: "Ingeniería de Software",
     icon: BsCodeSlash,
   },
   {
@@ -61,28 +61,28 @@ export const interestsData = [
     icon: FaHashnode,
   },
   {
-    interest: "Internet of Things",
+    interest: "Internet de las Cosas",
     icon: FcElectronics,
   },
   {
-    interest: "Market Research",
+    interest: "Auditorías de Seguridad",
     icon: GiArchiveResearch,
   },
   {
-    interest: "Visualization",
+    interest: "Gestión de Incidentes de Seguridad",
     icon: BsFileBarGraph,
   },
   {
-    interest: "Software Development",
+    interest: "Desarrollo de Software",
     icon: AiFillCode,
   },
   {
-    interest: "Robotics",
-    icon: BsRobot,
+    interest: "Análisis de Malware",
+    icon: FiClipboard,
   },
   {
-    interest: "Web Scraping",
-    icon: BsGlobe,
+    interest: "Seguridad Física y de Acceso",
+    icon:BsCodeSlash ,
   },
 ];
 

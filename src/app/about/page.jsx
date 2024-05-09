@@ -43,7 +43,7 @@ const Page = () => {
                 </Heading>
                 <br />
                 <Text>
-                  Soy<span className="name">Víctor</span>, Estudiante de Ingeniería Informática,
+                  Soy<span className="name">Víctor</span>, estudiante de Ingeniería Informática,
                   con mucho interés y pasión por la ciberseguirdad.<br /> Quiero especializarme en:{" "}
                   <span className="tech">Pentesting y Análisis Forense</span>, ya que considero
                   que cada día que pasa esto va a ser más importante y, es una forma crucial de
@@ -53,8 +53,8 @@ const Page = () => {
                 <br />
 
                 <Text>
-                  Actualmente estoy estudiando Ingeniería Informática en la universidad de León
-                  🤖📲Me interesa mucho la ciberseguridad y, en general, todos lo ámbitos de la misma.🔏
+                  Actualmente estoy estudiando Ingeniería Informática en la universidad de León. <br />
+                  🤖📲Me interesa mucho la ciberseguridad y, en general, todos lo ámbitos de la misma. 🔏
                 </Text>
 
                 <br />
