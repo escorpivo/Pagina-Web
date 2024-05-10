@@ -13,6 +13,8 @@ import {
   FaDragon,
   FaAdjust,
   FaLinux,
+  FaNetworkWired,
+  TbLetterN,
 
 } from "react-icons/fa";
 
@@ -21,6 +23,7 @@ import {
   TbBrandJavascript,
   TbBrandCpp,
   TbLetterZ,
+  TbPig,
 } from "react-icons/tb";
 import { BiLogoJquery, BiLogoPostgresql } from "react-icons/bi";
 import {
@@ -37,7 +40,7 @@ import {
   BsGit,
   BsMarkdown,
 } from "react-icons/bs";
-import { GiArchiveResearch, GiArtificialIntelligence } from "react-icons/gi";
+import { GiArchiveResearch, GiArtificialIntelligence, GiGoat, } from "react-icons/gi";
 import { FcElectronics } from "react-icons/fc";
 
 export const links = [
@@ -106,6 +109,22 @@ export const skillsData = [
   {
     name: "Zabbix",
     icon: TbLetterZ,
+  },
+  {
+    name: "Nagios",
+    icon: TbLetterN,
+  },
+  {
+    name: "SNORT",
+    icon: TbPig,
+  },
+  {
+    name: "WebGoat",
+    icon: GiGoat,
+  },
+  {
+    name: "SNMP",
+    icon: FaNetworkWired,
   },
   {
     name: "CSS3",
