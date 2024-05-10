@@ -24,10 +24,17 @@ const Contact = () => {
               </Text>{" "}
               guays
 
+            </Heading>
+
+            <br></br>
+            <h3>
+            <Text color="social.whatsapp" display="inline">
               Si ves que el formulario da error en fetch,
               envíame un correo directamente con el link de debajo.
               -aún tengo la página en desarrollo-
-            </Heading>
+              </Text>{" "}
+            </h3>
+            <br></br>
 
             <Stack marginTop="4rem">
               <Tooltip label="Send Mail">
