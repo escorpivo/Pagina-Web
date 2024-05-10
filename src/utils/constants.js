@@ -14,7 +14,7 @@ import {
   FaAdjust,
   FaLinux,
   FaNetworkWired,
-  TbLetterN,
+  FaJava,
 
 } from "react-icons/fa";
 
@@ -24,6 +24,7 @@ import {
   TbBrandCpp,
   TbLetterZ,
   TbPig,
+  TbLetterN,
 } from "react-icons/tb";
 import { BiLogoJquery, BiLogoPostgresql } from "react-icons/bi";
 import {
@@ -125,6 +126,10 @@ export const skillsData = [
   {
     name: "SNMP",
     icon: FaNetworkWired,
+  },
+  {
+    name: "Java",
+    icon: FaJava,
   },
   {
     name: "CSS3",
