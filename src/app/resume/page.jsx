@@ -14,7 +14,11 @@ const Resume = () => {
       <Center>
         <Box width={["90vw", "90vw", "80vw"]} height="100%" marginTop="2rem" marginBottom="4rem">
         <Button as="a" href="/files/Victor Amigo cv.pdf" colorScheme="teal" size="sm" download="Victor_Amigo_Garcia_CV">
-              Download&nbsp;
+              Descargar CV europeo&nbsp;
+              <AiOutlineDownload fill="black"/>
+        </Button>
+        <Button as="a" href="/files/Clean_CV_Victor.pdf" colorScheme="teal" size="sm" download="Victor_Amigo_Garcia_CV_Clean">
+              Descargar CV Clean&nbsp;
               <AiOutlineDownload fill="black"/>
         </Button>
           <div
