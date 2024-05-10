@@ -188,28 +188,7 @@ export const workData = [
           </li>
           <li>
             Aunque tenemos nuestros más y nuestros menos en el club, son todos gente genial<br />
-            les tengo mucho aprecio y, se que juntos podemos desarrollar proyectos brutales<br />
-            Dani presi, i lof u 😭.
-          </li>
-        </ul>
-      </>
-    ),
-  },
-  {
-    company: "Maker Club León",
-    designation: "Vicepresidente",
-    duration: "Diciembre 2021 - Actualidad",
-    companyImg: "Logo-maker.png",
-    description: (
-      <>
-        <ul>
-          <li>
-          Aquí me podrás encontrar, cacharreando y aprendiendo cosas nuevas.<br />
-          o probando y, ¡rezando por que no explote!
-          </li>
-          <li>
-            Aunque tenemos nuestros más y nuestros menos en el club, son todos gente genial<br />
-            les tengo mucho aprecio y, se que juntos podemos desarrollar proyectos brutales<br />
+            les tengo mucho aprecio y, se que juntos podemos desarrollar proyectos brutales<br /><br />
             Dani presi, i lof u 😭.
           </li>
         </ul>

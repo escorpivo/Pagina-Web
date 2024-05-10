@@ -29,7 +29,7 @@ const WorkCard = (props) => {
               marginRight="1rem"
               height={["15rem","15rem","13rem"]}
               width={["15rem","15rem","13rem"]}
-              margin={["2rem auto","1rem","auto 1rem"]}
+              margin={["2rem","1rem","auto 1rem"]}
               backgroundColor="white"
               display={["none","unset","unset"]}
             />
