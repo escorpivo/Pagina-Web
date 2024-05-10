@@ -24,7 +24,7 @@ import { RevealWrapper } from 'next-reveal'
 
 const ContactForm = () => {
   const toast = useToast();
-  const options = ["Hablar", "Contratarme", "Freelance", "Other"];
+  const options = ["Hablar", "Contrato", "Freelance", "Otro"];
   const [interestedIn, setInterestedIn] = useState("Hablar");
   const { getRootProps, getRadioProps } = useRadioGroup({
     name: "Hablar",
