@@ -23,7 +23,7 @@ const WorkCard = (props) => {
         <CardBody>
           <Flex flexDirection={["column","column","row"]} justifyContent="center" alignItems="center">
             <Image
-              objectFit="fill"
+              objectFit="contain"
               src={`/images/${companyImg}`}
               alt="Imagen de la Uni"
               marginRight="1rem"
