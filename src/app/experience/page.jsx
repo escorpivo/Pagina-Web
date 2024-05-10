@@ -11,7 +11,7 @@ const Work = () => {
       <Center>
         <Box width={["80vw", "80vw", "79vw"]} height="100%">
           <Heading className="sub-heading" size="md" my={3}>
-            EXPERIENCE
+            EXPERIENCIA
           </Heading>
           <RevealWrapper className="load-hidden" delay={300}>
             <SimpleGrid>
