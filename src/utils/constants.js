@@ -92,6 +92,22 @@ export const skillsData = [
     icon: FaHtml5,
   },
   {
+    name: "Kali Linux",
+    icon: FaDragon,
+  },
+  {
+    name: "Security Onion",
+    icon: FaAdjust,
+  },
+  {
+    name: "Linux",
+    icon: faLinux,
+  },
+  {
+    name: "Zabbix",
+    icon: TbLetterZ,
+  },
+  {
     name: "CSS3",
     icon: FaCss3,
   },
@@ -140,10 +156,6 @@ export const skillsData = [
     icon: FaGithub,
   },
   {
-    name: "ChatGPT",
-    icon: GiArtificialIntelligence,
-  },
-  {
     name: "Bash",
     icon: SiGnubash,
   },
@@ -158,7 +170,7 @@ export const workData = [
     company: "Universidad de León",
     designation: "Estudiante",
     duration: "Septiembre 2021 - Actualidad",
-    companyImg: "1ds.jpg",
+    companyImg: "Logo-ULE.jpg",
     description: (
       <>
         <ul>
