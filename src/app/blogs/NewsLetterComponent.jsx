@@ -38,7 +38,7 @@ export default function NewsLetterComponent() {
             textAlign={"center"}
             mb={5}
           >
-            Subscribe to my Newsletter
+            pondré aqui un Newsletter
           </Heading>
           <Stack
             direction={{ base: "column", md: "row" }}
@@ -56,7 +56,7 @@ export default function NewsLetterComponent() {
                 .catch((error) => {
                   setError(true);
                   setState("initial");
-                  console.error("An error occurred:", error);
+                  console.error("ha ocurrido un error:", error);
                 });
             }}
           >
@@ -72,8 +72,8 @@ export default function NewsLetterComponent() {
                 id={"email"}
                 type={"email"}
                 required
-                placeholder={"Your Email"}
-                aria-label={"Your Email"}
+                placeholder={"Tu email"}
+                aria-label={"Tu email"}
                 value={email}
                 disabled={state !== "initial"}
                 onChange={(e) => setEmail(e.target.value)}
@@ -96,8 +96,8 @@ export default function NewsLetterComponent() {
             color={error ? "red.500" : "gray.500"}
           >
             {error
-              ? "Oh no an error occured! 😢 Please try again later."
-              : "You won't receive any spam! ✌️"}
+              ? "Oh no, ¡ha ocurrido un error! 😢 Inténtalo en un rato."
+              : "¡No recibirás SPAM! lo juro. ✌️"}
           </Text>
         </Container>
       </Flex>
@@ -111,10 +111,10 @@ export default function NewsLetterComponent() {
         <ModalOverlay />
         <ModalContent>
           <ModalCloseButton />
-          <ModalHeader>Thank You for Subscribing</ModalHeader>
+          <ModalHeader>Gracias por suscribirte!</ModalHeader>
           <ModalBody padding="1rem">
-          You have received a confirmation mail to subscribe my hashnode blog
-              on <Text color="#068FFF" display="inline">{email}</Text>. Please confirm it, to receive updates on my articles.
+          Vas a recibir una confirmación por email.
+              on <Text color="#068FFF" display="inline">{email}</Text>. Por favor, confirma el email, para recibir los cambios y tal.
           </ModalBody>
         </ModalContent>
       </Modal>

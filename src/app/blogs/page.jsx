@@ -101,7 +101,7 @@ const Blogs = () => {
           <ModalContent>
             <ModalHeader>
               <Link
-                href={`https://codersk36.hashnode.dev/${activeCard?.slug}`}
+                href={`https://www.instagram.com/makerclubleon/${activeCard?.slug}`}
                 target="_blank"
               >
                 {activeCard?.title}
