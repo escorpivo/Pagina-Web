@@ -163,12 +163,33 @@ export const workData = [
       <>
         <ul>
           <li>
-          De momento, solo he estudiado en la universidad, aunque he investigado acerca
-          de muchas cosas y, hasta he desarrollado algún que otro proyecto.
+          De momento, estoy estudiando en la universidad, aunque investigo acerca
+          de muchas cosas cada día y, hasta he desarrollado algún que otro proyecto.
           </li>
           <li>
             ¡Aún así, espero poder desarrollar mucho más mi potencial y poder trabajar
             codo con codo con los mejores!.
+          </li>
+        </ul>
+      </>
+    ),
+  },
+  {
+    company: "Maker Club León",
+    designation: "Vicepresidente",
+    duration: "Diciembre 2021 - Actualidad",
+    companyImg: "Logo-maker.png",
+    description: (
+      <>
+        <ul>
+          <li>
+          Aquí me podrás encontrar, cacharreando y aprendiendo cosas nuevas.<br />
+          o probando y, ¡rezando por que no explote!
+          </li>
+          <li>
+            Aunque tenemos nuestros más y nuestros menos en el club, son todos gente genial<br />
+            les tengo mucho aprecio y, se que juntos podemos desarrollar proyectos brutales<br />
+            Dani presi, i lof u 😭.
           </li>
         </ul>
       </>
