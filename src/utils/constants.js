@@ -177,14 +177,14 @@ export const workData = [
 ];
 
 export const projectsData = [
-  /*{
-    type: "WEB-APP",
-    title: "Movie Magnet",
-    image: "movie-magnet",
-    link: "https://movie-magnet-smoky.vercel.app/",
-    source: "https://github.com/vaheedsk36/movie-magnet",
-  },
   {
+    type: "WEB-APP",
+    title: "Maker Club León",
+    image: "movie-magnet",
+    link: "https://www.instagram.com/makerclubleon/",
+    source: "https://www.instagram.com/makerclubleon/",
+  },
+  /*{
     type: "WEB-APP",
     title: "Portfolio Website",
     image: "portfolio-website",
