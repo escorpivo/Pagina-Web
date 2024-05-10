@@ -105,37 +105,37 @@ const ContactForm = () => {
           </Flex>
           <Stack as="form" onSubmit={handleSubmit(onSubmit)}>
             <FormControl isRequired isInvalid={errors.name} my={4}>
-              <FormLabel htmlFor="name">Enter Name</FormLabel>
+              <FormLabel htmlFor="name">Tu nombre</FormLabel>
               <Input
                 id="name"
                 className="contact-input"
                 type="text"
-                placeholder="Your Name"
+                placeholder="Tu nombre"
                 {...register("name", { required: true })}
               />
               {errors.name && (
-                <FormErrorMessage>Tu nombre</FormErrorMessage>
+                <FormErrorMessage>Error con tu nombre</FormErrorMessage>
               )}
             </FormControl>
             <FormControl isRequired isInvalid={errors.email}>
-              <FormLabel htmlFor="email">Tu Email</FormLabel>
+              <FormLabel htmlFor="email">Email</FormLabel>
               <Input
                 id="email"
                 className="contact-input"
                 type="email"
-                placeholder="Your Email"
+                placeholder="Tu Email"
                 {...register("email", { required: true })}
               />
               {errors.email && (
-                <FormErrorMessage>Tu email</FormErrorMessage>
+                <FormErrorMessage>Error con tu email</FormErrorMessage>
               )}
             </FormControl>
             <FormControl my={4}>
-              <FormLabel htmlFor="number">Tu número de teléfono.</FormLabel>
+              <FormLabel htmlFor="number">Número de teléfono.</FormLabel>
               <NumberInput id="number" {...register("number")}>
                 <NumberInputField
                   className="contact-input"
-                  placeholder="Your Phone No."
+                  placeholder="Número de teléfono."
                 />
               </NumberInput>
             </FormControl>
@@ -144,11 +144,11 @@ const ContactForm = () => {
               <Textarea
                 id="message"
                 className="contact-input"
-                placeholder="Your Message"
+                placeholder="Texto sobre lo que me quieras decir :)"
                 {...register("message", { required: true })}
               />
               {errors.message && (
-                <FormErrorMessage>Pon tu mensajee</FormErrorMessage>
+                <FormErrorMessage>Error con el mensaje que querías enviar</FormErrorMessage>
               )}
             </FormControl>
             <FormControl>
@@ -161,7 +161,7 @@ const ContactForm = () => {
                 type="submit"
               >
                 <Icon mr={1} as={BsFillSendFill} />
-                Send Message
+                ¡Enviar!
               </Button>
             </FormControl>
           </Stack>
