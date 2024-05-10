@@ -27,13 +27,16 @@ const Contact = () => {
             </Heading>
 
             <br></br>
-            <h3>
-            <Text color="social.whatsapp" display="inline">
+            <br></br>
+
+            <h4>
+            <Text color="social.pinterest" display="inline">
               Si ves que el formulario da error en fetch,
-              envíame un correo directamente con el link de debajo.
+              envíame un correo directamente con el link de debajo.<br></br>
+
               -aún tengo la página en desarrollo-
               </Text>{" "}
-            </h3>
+            </h4>
             <br></br>
 
             <Stack marginTop="4rem">
