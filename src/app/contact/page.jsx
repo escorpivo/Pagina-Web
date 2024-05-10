@@ -30,12 +30,12 @@ const Contact = () => {
             <br></br>
 
             <h4>
-            <Text color="social.pinterest" display="inline">
-              Si ves que el formulario da error en fetch,
-              envíame un correo directamente con el link de debajo.<br></br>
+            <p color="social.pinterest" display="inline">
+              Si ves que el formulario da error en fetch, envíame
+              un correo directamente con el link de debajo.
 
               -aún tengo la página en desarrollo-
-              </Text>{" "}
+              </p>{" "}
             </h4>
             <br></br>
 

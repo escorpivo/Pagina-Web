@@ -14,7 +14,7 @@ import { FaExternalLinkAlt } from "react-icons/fa";
 const ArticlesCard = (props) => {
   const { data, setActiveCard, onOpen } = props;
   const { title, coverImage, slug, brief } = data;
-  const articleUrl = `https://codersk36.hashnode.dev/${slug}`;
+  const articleUrl = `https://www.instagram.com/makerclubleon/?hl=es`;
   return (
     <>
       <Card
