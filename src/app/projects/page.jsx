@@ -18,7 +18,7 @@ const Projects = () => {
   const [selectedData, setSelectedData] = useState(projectsData);
   const valSelectFn = (value) =>
     setSelectedData(() => {
-      return value === "ALL"
+      return value === "TODOS"
         ? projectsData
         : projectsData.filter((data) => data.type === value);
     });
