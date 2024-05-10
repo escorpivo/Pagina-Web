@@ -26,7 +26,7 @@ const Contact = () => {
 
               Si ves que el formulario da error en fetch,
               envíame un correo directamente con el link de debajo.
-              "(aún tengo la página en desarrollo.)"
+              -aún tengo la página en desarrollo-
             </Heading>
 
             <Stack marginTop="4rem">
