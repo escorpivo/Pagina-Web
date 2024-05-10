@@ -16,7 +16,7 @@ export default function Home() {
 
   useEffect(() => {
     const options = {
-      strings: ["Developer", "Coder", "Tech Blogger", "Tech Enthusiast"],
+      strings: ["Desarrollador", "Investigador", "Apasionado", "Entusiasta de la Ciberseguridad"],
       typeSpeed: 50,
       backSpeed: 35,
       loop: true,
@@ -67,7 +67,7 @@ export default function Home() {
               color="blueTheme.navLinkActive"
               fontFamily="Righteous"
             >
-              Hi, my name is
+              Hola, soy
             </Heading>
           </RevealWrapper>
           <RevealWrapper className="load-hidden" delay={500}>
@@ -80,7 +80,7 @@ export default function Home() {
                 fontFamily="Black Ops One"
                 fontSize={["2.5rem", "3.7rem"]}
               >
-                Masood Akhtar
+                Víctor Amigo García
               </Heading>
 
               <Heading
