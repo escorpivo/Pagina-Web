@@ -178,20 +178,20 @@ export const workData = [
 
 export const projectsData = [
   {
-    type: "WEB-APP",
+    type: "SOCIAL",
     title: "Maker Club León",
-    image: "movie-magnet",
+    image: "Logo-maker",
     link: "https://www.instagram.com/makerclubleon/",
     source: "https://www.instagram.com/makerclubleon/",
   },
-  /*{
-    type: "WEB-APP",
-    title: "Portfolio Website",
-    image: "portfolio-website",
-    link: null,
-    source: "https://github.com/vaheedsk36/portfolio-website-nextjs",
-  },
   {
+    type: "PROYECTO",
+    title: "Galactic Starcade - Maker",
+    image: "Arcade",
+    link: null,
+    source: null,
+  },
+  /*{
     type: "WEB-APP",
     title: "Weather App",
     image: "weather-app",
