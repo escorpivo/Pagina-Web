@@ -46,7 +46,7 @@ const Resume = () => {
                 margin: 0,
               }}
               //poner aqui un enlace a un canva o algo
-              //src="https://www.canva.com/design/DAE02jCrTBo/view?embed"
+              src="https://www.canva.com/design/DAGEyRQT5Lw/7PIBytYufd9evvPH9HfUUQ/view?embed"
               allowFullScreen
             ></iframe>
           </div>

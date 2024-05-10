@@ -30,7 +30,7 @@ const Contact = () => {
             <br></br>
 
             <h4>
-            <p color="social.linkedin" display="inline">
+            <p color="social.instagram" display="inline">
               Si ves que el formulario da error en fetch, envíame
               un correo directamente con el link de debajo.
               <br></br>
