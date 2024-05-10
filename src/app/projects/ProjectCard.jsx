@@ -28,7 +28,7 @@ const ProjectCard = (props) => {
 
           >
             <Image
-              objectFit="cover"
+              objectFit="contain"
               src={`images/${image}.png`}
               alt="project-img"
               height="13rem"
