@@ -10,7 +10,7 @@
     "lint": "next lint"
   },
   "keywords": [],
-  "author": "Víctor Amigo García",
+  "author": "Masood Akhtar Vaheed",
   "license": "ISC",
   "dependencies": {
     "@chakra-ui/icons": "^2.1.0",
