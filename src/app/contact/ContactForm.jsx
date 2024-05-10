@@ -27,7 +27,7 @@ const ContactForm = () => {
   const options = ["Hablar", "Contratarme", "Freelance", "Other"];
   const [interestedIn, setInterestedIn] = useState("Hablar");
   const { getRootProps, getRadioProps } = useRadioGroup({
-    name: "interested",
+    name: "Hablar",
     defaultValue: interestedIn,
     onChange: (value) => setInterestedIn(value),
   });
@@ -43,7 +43,7 @@ const ContactForm = () => {
   const onSubmit = async (formData) => {
     setIsLoading(true);
     formData["interested-in"] = interestedIn;
-    const formSubmitURL = `https://fabform.io/f/${process.env.NEXT_PUBLIC_FAB_FORM_KEY}`;
+    const formSubmitURL = `mailto:vamigg00@estudiantes.unileon.es`;
     try {
       const response = await fetch(formSubmitURL, {
         method: "POST",
