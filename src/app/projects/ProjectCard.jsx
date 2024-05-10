@@ -52,7 +52,7 @@ const ProjectCard = (props) => {
               :
               null
             }
-            <Link href={source} target="_blank" mr={1}><Icon as={FaGithub} _hover={linkHover}/></Link>
+          {/*  <Link href={source} target="_blank" mr={1}><Icon as={FaGithub} _hover={linkHover}/></Link> */}
           </Flex>
           </Card>
       </ScaleFade>
