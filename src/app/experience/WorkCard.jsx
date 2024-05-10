@@ -28,10 +28,9 @@ const WorkCard = (props) => {
               alt={`Imagen de ${companyImg}`}
               marginRight="1rem"
               height={["15rem","15rem","13rem"]}
-              maxHeight={["15rem","15rem","13rem"]} 
-             // width={["15rem","15rem","13rem"]}
-              width="auto"
-              margin={["2rem","1rem","auto 1rem"]}
+              width={["15rem","15rem","13rem"]}
+              
+              margin={["2rem","1rem", "1rem"]}
               backgroundColor="white"
               display={["none","unset","unset"]}
             />
