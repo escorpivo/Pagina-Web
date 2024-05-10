@@ -10,19 +10,20 @@ import {
   FaInstagram,
   FaLinkedin,
   FaTwitter,
+  FaDragon,
+  FaAdjust,
+  FaLinux,
+
 } from "react-icons/fa";
 
 import {
   TbBrandTypescript,
   TbBrandJavascript,
   TbBrandCpp,
-  TbBrandRedux,
-  TbBrandBootstrap,
+  TbLetterZ,
 } from "react-icons/tb";
 import { BiLogoJquery, BiLogoPostgresql } from "react-icons/bi";
 import {
-  SiPug,
-  SiExpress,
   SiPostman,
   SiGnubash,
   SiNextdotjs,
@@ -32,7 +33,6 @@ import { FaHashnode } from "react-icons/fa6";
 import {
   BsGlobe,
   BsCodeSlash,
-  BsRobot,
   BsFileBarGraph,
   BsGit,
   BsMarkdown,
@@ -101,7 +101,7 @@ export const skillsData = [
   },
   {
     name: "Linux",
-    icon: faLinux,
+    icon: FaLinux,
   },
   {
     name: "Zabbix",
