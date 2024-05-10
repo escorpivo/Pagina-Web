@@ -39,7 +39,7 @@ export const subscribeToNewsletter = async (email) => {
   });
 
   const requestOptions = {
-    method: "POST",
+    method: "GET",
     headers,
     body,
     redirect: "follow",
