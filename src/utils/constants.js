@@ -42,13 +42,13 @@ import { FcElectronics } from "react-icons/fc";
 
 export const links = [
   { text: "Home", path: "/" },
-  { text: "About", path: "/about" },
-  { text: "Skills", path: "/skills" },
-  { text: "Projects", path: "/projects" },
-  { text: "Experience", path: "/experience" },
+  { text: "Sobre mi", path: "/about" },
+  { text: "Habilidades", path: "/skills" },
+  { text: "Proyectos", path: "/projects" },
+  { text: "Experiencia", path: "/experience" },
   { text: "Blogs", path: "/blogs" },
-  { text: "Contact", path: "/contact" },
-  { text: "Resume", path: "/resume" },
+  { text: "Contacto", path: "/contact" },
+  { text: "Resumen", path: "/resume" },
 ];
 
 export const interestsData = [
@@ -100,10 +100,6 @@ export const skillsData = [
     icon: TbBrandJavascript,
   },
   {
-    name: "Typescript",
-    icon: TbBrandTypescript,
-  },
-  {
     name: "SASS",
     icon: FaSass,
   },
@@ -126,10 +122,6 @@ export const skillsData = [
   {
     name: "NodeJs",
     icon: FaNodeJs,
-  },
-  {
-    name: "Express",
-    icon: SiExpress,
   },
   {
     name: "Docker",

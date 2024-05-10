@@ -16,7 +16,7 @@ export default function Home() {
 
   useEffect(() => {
     const options = {
-      strings: ["Desarrollador", "Investigador", "Apasionado", "Entusiasta de la Ciberseguridad"],
+      strings: ["Desarrollador", "Investigador", "Apasionado", "Curioso"],
       typeSpeed: 50,
       backSpeed: 35,
       loop: true,
@@ -88,13 +88,13 @@ export default function Home() {
                 fontSize={["2.5rem", "3.7rem"]}
                 ml={[null, "1rem"]}
               >
-                Víctor
+                
               </Heading>
             </Flex>
           </RevealWrapper>
           <RevealWrapper className="load-hidden" delay={600}>
             <Heading my={3} size="lg" fontFamily="Righteous">
-              I &apos;m <span className="typed-text" ref={typedTextRef}></span>
+             <span className="typed-text" ref={typedTextRef}></span>
             </Heading>
           </RevealWrapper>
           <RevealWrapper className="load-hidden" delay={700}>
